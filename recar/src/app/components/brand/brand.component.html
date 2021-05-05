@@ -1,0 +1,38 @@
+
+ 
+ <ul class="list-group">
+  <li  [class]="getAllBrandClass()" style="background-color: #131111"
+  routerLink = "/cars">ARABA MARKALARI</li>
+    <li (click)="setCurrentBrand(brand)" 
+    routerLink="/cars/brand/{{brand.brandId}}"
+    *ngFor="let brand of brands" 
+    [class]="getCurrentBrandClass(brand)">
+    {{brand.brandName}}</li>
+  </ul>
+  <h5 *ngIf="currentBrand">{{currentBrand.brandName}} seçtiniz</h5>
+
+  
+ <!--<form>
+    <div class="mb-12">
+      <span class="d-block p-3 bg-dark text-white p-3"[class]="getAllBrandClass()">Markalar</span>
+      
+      <select class="form-select" aria-label="Markalar">
+        <option selected >Tüm Markalar</option>
+        <option 
+       (click)="setCurrentBrand(brand)"
+         routerLink="/cars/brand/{{brand.brandName}}" 
+         *ngFor="let brand of brands"  
+         [class]="getCurrentBrandClass(brand)">{{brand.brandName}}}</option>
+      </select>
+      <br>
+      <label class="btn btn-outline-primary" for="btn-check-outlined">FİLTRELE</label>
+
+      <label class="btn btn-outline-secondary" for="btn-check-outlined">TEMİZLE</label>
+    
+    </div>
+    <h5 *ngIf="currentBrand">{{currentBrand.brandName}} seçtiniz</h5>
+  </form>-->
+
+
+
+

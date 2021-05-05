@@ -1,0 +1,45 @@
+
+<h2 class="d-flex justify-content-center">ARABA DETAYLARI</h2>
+
+
+    <div class="carousel-inner">
+      <div
+        *ngFor="let carImage of carImages"
+        [class]="getCurrentImageClass(carImage)"
+      >
+        <img
+        
+          class="d-block w-80 center rounded mx-auto d-block"
+          alt=""
+        />
+      </div>
+  
+  
+      
+   
+  <table class="table table-success container my-3 px-4">
+    <thead>
+      <tr>
+        <th>Araç Id</th>
+        <th>Marka</th>
+        <th>Renk</th>
+        <th>Model Yılı</th>
+        <th>Günlük Fiyatı +KDV</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let car of cars ">
+        <h5 class = "card-title text-center">{{car.carId}}</h5>
+        <td>{{car.carId}}</td>
+        <td>{{car.brandId}}</td>
+        <td>{{car.colorId}}</td>
+        <td>{{car.modelYear}}</td>
+        <td>{{car.description}}</td>
+        <td><button  type="button"class="btn btn-success btn-xs ">KİRALA</button></td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>

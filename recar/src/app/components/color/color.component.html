@@ -1,0 +1,33 @@
+
+
+
+
+<ul class="list-group">
+  <li  [class]="getAllColorClass()"  style="background-color: #131111"
+  routerLink = "/cars">ARABA RENKLERİ</li>
+    <li (click)="setCurrentColor(color)" 
+    routerLink="/cars/color/{{color.colorId}}"
+    *ngFor="let color of colors" 
+    [class]="getCurrentColorClass(color)">
+    {{color.colorName}}</li>
+  </ul>
+  <h5 *ngIf="currentColor">{{currentColor.colorName}} seçtiniz</h5>
+ 
+  <!-- <form>
+    <div class="mb-12">
+      <span class="d-block p-3 bg-dark text-white p-3"[class]="getAllColorClass()">Renkler</span>
+      
+      <select class="form-select" aria-label="Renkler">
+        <option selected >Tüm Renkler</option>
+        <option value="=1" (click)="setCurrentColor(color)" 
+        routerLink="/cars/color/{{color.colorId}}"
+        *ngFor="let color of colors"  [class]="getCurrentColorClass(color)">{{color.colorName}}
+       </option>
+      </select>
+      <br>
+      <label class="btn btn-outline-primary" for="btn-check-outlined">FİLTRELE</label>
+      <label class="btn btn-outline-secondary" for="btn-check-2-outlined">TEMİZLE</label>
+    
+    </div>
+  </form>-->
+  

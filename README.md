@@ -24,7 +24,8 @@ Login olduktan sonra ve gerekli şartları sağladıktan sonra veritabanına ara
 
 EKLENEN ARABAMIZIN GÖRÜNTÜSÜ
 
-![Uploading Ekran görüntüsü 2021-05-06 232232.png…]
+![Ekran görüntüsü 2021-05-06 232232](https://user-images.githubusercontent.com/78070798/117362504-a11bc080-aebb-11eb-8890-beaa5d6f613b.png)
+
 
 
 

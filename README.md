@@ -4,10 +4,12 @@ ARABA KİRALAMA SİSTEMİNİN ANASAYFASI.
 ![Ekran görüntüsü 2021-05-06 231855](https://user-images.githubusercontent.com/78070798/117361576-8137cd00-aeba-11eb-9547-68136c447cc4.png)
 ![Ekran görüntüsü 2021-05-06 231916](https://user-images.githubusercontent.com/78070798/117361594-86951780-aeba-11eb-9573-f8c42f19ac16.png)
 
+
+MARKALARA GÖRE VE RENKLERE GÖRE SİSTEM ARABALARI LİSTELİYOR.
+![Ekran görüntüsü 2021-05-06 231951](https://user-images.githubusercontent.com/78070798/117361780-c1974b00-aeba-11eb-9389-0ddacc563b53.png)
+
 SEPETE EKLEME GÖRÜNTÜSÜ
 
-![Ekran görüntüsü 2021-05-06 231951](https://user-images.githubusercontent.com/78070798/117361780-c1974b00-aeba-11eb-9389-0ddacc563b53.png)
-MARKALARA GÖRE VE RENKLERE GÖRE SİSTEM ARABALARI LİSTELİYOR.
 
 ![Ekran görüntüsü 2021-05-06 231930](https://user-images.githubusercontent.com/78070798/117361724-b2180200-aeba-11eb-9923-7478f29d1e76.png)
 
